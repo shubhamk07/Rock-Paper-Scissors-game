@@ -1,5 +1,5 @@
 # Rock-Paper-Scissors-game
-The famous game ROCK PAPER SCISSORS built with javascript and Jquery.
+The famous game <b>ROCK PAPER SCISSORS</b> built with javascript and Jquery.
 
 Technologies used :
 <ul>
