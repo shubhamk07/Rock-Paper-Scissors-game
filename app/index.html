@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Rock Paper Scissors Play Online</title>
+
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/rock.css">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/fontAwesome/font-awesome.min.css">
+    </head>
+    <body>
+        <div class ="header container-fluid bg-1">
+        <p id ="header"> R<span id ="diamond"><img src ="diamant--diamond-64-125695.png"</span>CK &nbsp;&nbsp;&nbsp;&nbsp;PAPER &nbsp;&nbsp;&nbsp;&nbsp;SCISSORS !</p>
+        <p id ="subHeading">Rock crushes Scissors,&nbsp;&nbsp; Scissors cuts Paper,&nbsp;&nbsp;&nbsp;&nbsp;Paper covers Rock.</p>
+    </div>
+    <div id ="rules" class= "container-fluid">
+        <p class = "rules"> <span id = "gameCenter">GAME RULES -</span> <br/>
+            1. User types his choice among rock, scissors or paper.<br/>
+            2. Computer generates its own choice randomly.<br/>
+            3. Depending on the choices both make, A winner is decided and a point is awarded.<br/>
+            4. First player to make 5 points wins the match.
+            </p>
+    </div>
+    <div id="myModal" class="modal container-fluid">
+
+    </div>
+
+    <div class="container-fluid input">
+    <div class ="row">
+        <div class="col-lg-6 col-md-6 col-xs-12 inputField">
+    <h3> Enter your input </h3>
+    <input id = "userInput" placeholder="Enter rock,scissors or paper">
+    <button id ="submit" class = "btn btn-info">submit</button>
+    </div>
+    
+    <div class="col-lg-6 col-md-6 col-xs-12 points load" >
+    <div id = "points">
+        <h3 id = "userPoints"></h3>
+        <h3 id = "compPoints"></h3>
+        <h2 id = "league"></h2>
+
+    </div>
+    </div>
+    </div>
+    </div>
+    <img src = "ajaxloader.gif" class="slow">
+    <div class = "container-fluid choice load">
+    
+        <h3 id= "userChoice"></h3>
+        <h3 id= "compChoice"></h3>
+        <h2 id= "result"></h2>
+
+    </div>
+    
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    <script src = "js/rock.js"> </script>
+    </body>
+    </html>

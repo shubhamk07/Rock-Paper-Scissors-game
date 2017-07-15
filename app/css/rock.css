@@ -1,0 +1,76 @@
+.choice {
+	border : 2px, red;
+	color:#474E5D;
+	margin-left: 2%;
+	font-family: 'Alegreya', serif;
+
+	font-weight: 3em;
+}
+
+body{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	
+	
+	
+
+}
+.container{
+	width: 60%;
+}
+.header{
+	font-family: 'Alegreya', serif;
+	color:white;
+	font-style: normal;
+	font-size: 3.5em;
+	font-weight: 800;
+	background-color: #53CAD9;
+	text-align: center;
+
+}
+#rules{
+	font-size: 1.8em;
+	font-family: 'Alegreya', serif;
+	word-spacing: 0.4em;
+	line-height: 1.5em;
+	margin-top: 1%;
+
+}
+#gameCenter{
+	text-align: center;
+}
+#subHeading{
+	font-size: 0.6em;
+}
+input{
+	width:30%;
+	font-size: 2.6vmin;
+	margin-top: 1%;
+	text-align: center;
+	
+}
+button{
+
+}
+.input{
+	margin-left: 2%;
+	font-family: 'Alegreya', serif;
+
+}
+.disable{
+    cursor: not-allowed;
+    pointer-events: none;
+}
+.slow{
+	margin-left: 6%;
+
+}
+#gameCenter{
+	font-weight: bold;
+	font-size: 1.4em;
+}
+.hearts{
+	color:black;
+}
