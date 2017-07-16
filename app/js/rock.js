@@ -26,7 +26,7 @@ $(function(){
 	 	compData = "paper";
 	 }
 	 else if(compData >0.66){
-	 	compData = "scissor";
+	 	compData = "scissors";
 	 }
 	 
 	 if (userData == "" ){
@@ -64,7 +64,7 @@ $(function(){
 			league(userPoints,compPoints);
 		}
 		else if (userData === "rock"){
-			if(compData === "scissor" ){
+			if(compData === "scissors" ){
 				$("#userChoice").html("User choses "+userData);
 			$("#compChoice").html("Computer choses "+compData);
 			$("#result").html("User WON !");
@@ -84,7 +84,7 @@ $(function(){
 			}
 		}
 		else if(userData === "paper"){
-			if(compData === "scissor" ){
+			if(compData === "scissors" ){
 				$("#userChoice").html("User choses "+userData);
 			$("#compChoice").html("Computer choses "+compData);
 			$("#result").html("Computer WON !");
@@ -103,7 +103,7 @@ $(function(){
 			league(userPoints,compPoints);
 			}
 		}
-		else if (userData === "scissor"){
+		else if (userData === "scissors"){
 			if(compData === "paper" ){
 				$("#userChoice").html("User choses "+userData);
 			$("#compChoice").html("Computer choses "+compData);
